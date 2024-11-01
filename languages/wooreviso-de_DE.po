@@ -1,0 +1,616 @@
+# Loco Gettext template
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce e-conomic Integration\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-04 13:03+0530\n"
+"PO-Revision-Date: 2016-02-04 13:03+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Revision-Date: Sat May 16 2015 10:49:20 GMT+0530 (India Standard Time)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Poedit 1.8.7\n"
+"Last-Translator: \n"
+"Language: de\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../class-reviso-api.php:1209 ../class-reviso-api.php:1219
+msgid "Payment Method:"
+msgstr ""
+
+#: ../class-reviso-api.php:1533 ../class-reviso-api.php:1542
+#: ../class-reviso-api.php:1560 ../class-reviso-api.php:1566
+#: ../class-reviso-api.php:1575 ../class-reviso-api.php:1593
+#: ../class-reviso-api.php:1839 ../class-reviso-api.php:1841
+#: ../class-reviso-api.php:1845 ../class-reviso-api.php:1847
+#: ../class-reviso-api.php:1962 ../class-reviso-api.php:1964
+#: ../class-reviso-api.php:1970 ../class-reviso-api.php:1972
+#: ../class-reviso-api.php:2007 ../class-reviso-api.php:2287
+#: ../class-reviso-api.php:2297 ../class-reviso-api.php:2305
+#: ../class-reviso-api.php:2374 ../class-reviso-api.php:2396
+#: ../class-reviso-api.php:2416 ../class-reviso-api.php:2607
+#: ../class-reviso-api.php:2737
+msgid "success"
+msgstr ""
+
+#: ../class-reviso-api.php:1533 ../class-reviso-api.php:1542
+#: ../class-reviso-api.php:1566 ../class-reviso-api.php:1575
+msgid "Order synced successfully"
+msgstr ""
+
+#: ../class-reviso-api.php:1536 ../class-reviso-api.php:1545
+#: ../class-reviso-api.php:1569 ../class-reviso-api.php:1578
+#: ../class-reviso-api.php:1852 ../class-reviso-api.php:1859
+#: ../class-reviso-api.php:1864 ../class-reviso-api.php:1892
+#: ../class-reviso-api.php:2252 ../class-reviso-api.php:2290
+#: ../class-reviso-api.php:2300 ../class-reviso-api.php:2329
+#: ../class-reviso-api.php:2587 ../class-reviso-api.php:2610
+#: ../class-reviso-api.php:2717 ../class-reviso-api.php:2740
+msgid "fail"
+msgstr ""
+
+#: ../class-reviso-api.php:1536 ../class-reviso-api.php:1545
+#: ../class-reviso-api.php:1569 ../class-reviso-api.php:1578
+#: ../class-reviso-api.php:2290
+msgid "Sync failed, please try again later!"
+msgstr ""
+
+#: ../class-reviso-api.php:1560
+msgid "Order not synced, because Other checkout is set to \"Do nothing\""
+msgstr ""
+
+#: ../class-reviso-api.php:1593
+msgid "All orders were already synced!"
+msgstr ""
+
+#: ../class-reviso-api.php:1839 ../class-reviso-api.php:1970
+msgid ""
+"Product sync: Disabled! Use \"Activate product sync\" settings to enable it. "
+"<br> Product stock sync: Successfull!"
+msgstr ""
+
+#: ../class-reviso-api.php:1841 ../class-reviso-api.php:1972
+msgid ""
+"Product sync: Disabled! Use \"Activate product sync\" settings to enable it. "
+"<br> Product stock sync: Stock management disabled, Stock management can be "
+"enabled at Product->Inventory."
+msgstr ""
+
+#: ../class-reviso-api.php:1845 ../class-reviso-api.php:1962
+#: ../class-reviso-api.php:2007
+msgid "Product sync: Successful! <br> Product stock sync: Successfull!"
+msgstr ""
+
+#: ../class-reviso-api.php:1847 ../class-reviso-api.php:1964
+msgid ""
+"Product sync: Successful! <br> Product stock sync: Stock management "
+"disabled, Stock management can be enabled at Product->Inventory."
+msgstr ""
+
+#: ../class-reviso-api.php:1852
+msgid ""
+"Product not synced, someting went wrong. Please try product sync after some "
+"time!"
+msgstr ""
+
+#: ../class-reviso-api.php:1859
+msgid "Product not synced, SKU is empty!"
+msgstr ""
+
+#: ../class-reviso-api.php:1864
+msgid "Product not synced, product title is empty!"
+msgstr ""
+
+#: ../class-reviso-api.php:1892 ../class-reviso-api.php:2252
+#: ../class-reviso-api.php:2329 ../class-reviso-api.php:2587
+#: ../class-reviso-api.php:2717
+msgid "Could not create Reviso client, please try again later!"
+msgstr ""
+
+#: ../class-reviso-api.php:2287
+msgid "Customer synced successfully"
+msgstr ""
+
+#: ../class-reviso-api.php:2297
+msgid "Guest customer synced successfully"
+msgstr ""
+
+#: ../class-reviso-api.php:2300
+msgid "Guest customer sync failed, please try again later!"
+msgstr ""
+
+#: ../class-reviso-api.php:2305
+msgid "All customers were already synced!"
+msgstr ""
+
+#: ../class-reviso-api.php:2374 ../class-reviso-api.php:2396
+msgid "User "
+msgstr ""
+
+#: ../class-reviso-api.php:2416
+msgid "New user "
+msgstr ""
+
+#: ../class-reviso-api.php:2607
+msgid "Shipping synced successfully"
+msgstr ""
+
+#: ../class-reviso-api.php:2610
+msgid "Shipping not synced, please try again!"
+msgstr ""
+
+#: ../class-reviso-api.php:2737
+msgid "Coupon synced successfully"
+msgstr ""
+
+#: ../class-reviso-api.php:2740
+msgid "Coupon not synced, please try again!"
+msgstr ""
+
+#: ../reviso-payment.php:23 ../reviso-payment.php:59
+msgid "Reviso Invoice"
+msgstr ""
+
+#: ../reviso-payment.php:24 ../reviso-payment.php:66
+msgid "Receive an invoice from Reviso in no time!"
+msgstr ""
+
+#: ../reviso-payment.php:50
+msgid "Enable/Disable"
+msgstr ""
+
+#: ../reviso-payment.php:52
+msgid "Enable Reviso Invoice Payment"
+msgstr ""
+
+#: ../reviso-payment.php:56
+msgid "Title"
+msgstr ""
+
+#: ../reviso-payment.php:58
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: ../reviso-payment.php:63
+msgid "Description"
+msgstr ""
+
+#: ../reviso-payment.php:65
+msgid "Payment method description that the customer will see on your checkout."
+msgstr ""
+
+#: ../reviso-payment.php:70
+msgid "Instructions"
+msgstr ""
+
+#: ../reviso-payment.php:72
+msgid "Instructions that will be added to the thank you page and emails."
+msgstr ""
+
+#: ../reviso-payment.php:112
+msgid "Awaiting Reviso Invoice payment"
+msgstr ""
+
+#: ../woocommerce-reviso.php:78 ../woocommerce-reviso.php:108
+#: ../woocommerce-reviso.php:138 ../woocommerce-reviso.php:167
+#: ../woocommerce-reviso.php:197 ../woocommerce-reviso.php:226
+#: ../woocommerce-reviso.php:254
+msgid "<br>Sync status: "
+msgstr ""
+
+#: ../woocommerce-reviso.php:79 ../woocommerce-reviso.php:109
+msgid "Product SKU: "
+msgstr ""
+
+#: ../woocommerce-reviso.php:80 ../woocommerce-reviso.php:110
+msgid "Product Name: "
+msgstr ""
+
+#: ../woocommerce-reviso.php:81 ../woocommerce-reviso.php:111
+#: ../woocommerce-reviso.php:140 ../woocommerce-reviso.php:169
+#: ../woocommerce-reviso.php:199 ../woocommerce-reviso.php:228
+#: ../woocommerce-reviso.php:256
+msgid "Sync message: "
+msgstr ""
+
+#: ../woocommerce-reviso.php:84 ../woocommerce-reviso.php:114
+msgid "Products are synchronized without problems."
+msgstr ""
+
+#: ../woocommerce-reviso.php:89 ../woocommerce-reviso.php:119
+#: ../woocommerce-reviso.php:147 ../woocommerce-reviso.php:176
+#: ../woocommerce-reviso.php:206 ../woocommerce-reviso.php:235
+#: ../woocommerce-reviso.php:263
+msgid "Something went wrong."
+msgstr ""
+
+#: ../woocommerce-reviso.php:143
+msgid "Orders are synchronized without problems."
+msgstr ""
+
+#: ../woocommerce-reviso.php:172 ../woocommerce-reviso.php:202
+msgid "Contacts synchronized without problems."
+msgstr ""
+
+#: ../woocommerce-reviso.php:227
+msgid "Shipping type: "
+msgstr ""
+
+#: ../woocommerce-reviso.php:231
+msgid "Delivery synchronized without problems."
+msgstr ""
+
+#: ../woocommerce-reviso.php:255
+msgid "Coupon code: "
+msgstr ""
+
+#: ../woocommerce-reviso.php:259
+msgid "Coupon codes synchronized without problems."
+msgstr ""
+
+#: ../woocommerce-reviso.php:364 ../woocommerce-reviso.php:1475
+msgid "Product group"
+msgstr ""
+
+#: ../woocommerce-reviso.php:463
+msgid "License Key is Invalid!"
+msgstr ""
+
+#: ../woocommerce-reviso.php:468
+msgid "Your integration works fine!"
+msgstr ""
+
+#: ../woocommerce-reviso.php:471
+msgid "Your Reviso Token ID or License Key is not valid!"
+msgstr ""
+
+#: ../woocommerce-reviso.php:475
+msgid "Something went wrong, please try again later!"
+msgstr ""
+
+#: ../woocommerce-reviso.php:493
+msgid "WooCommerce Reviso Integration: License Key Invalid!"
+msgstr ""
+
+#: ../woocommerce-reviso.php:493 ../woocommerce-reviso.php:1430
+msgid "Get license Key"
+msgstr ""
+
+#: ../woocommerce-reviso.php:530
+msgid "<h3>WooCommerce Reviso Integration</h3>"
+msgstr ""
+
+#: ../woocommerce-reviso.php:531
+msgid ""
+"<p>You’ve just installed WooCommerce Reviso Integration by wooreviso. Please "
+"use the plugin options page to setup your integration.</p>"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1199
+msgid " Please save the settings before leaving this page!"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1202
+msgid " Click here to generate token access ID"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1277
+msgid "Disabled"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1278
+msgid "Hourly"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1279
+msgid "Twice Daily"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1280
+msgid "Daily"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1319
+msgid "Do nothing"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1321
+msgid "Create order"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1322
+msgid "Create draft invoice"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1323
+msgid "Create invoice"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1342
+msgid ""
+"<span><i>reviso client not loaded properly, please refresh the page to load "
+"properly.</i></span>"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1430
+msgid "License Key Invalid"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1453 ../woocommerce-reviso.php:1458
+msgid "General settings"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1460
+msgid "Token ID"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1460
+msgid "Token access ID from Reviso."
+msgstr ""
+
+#: ../woocommerce-reviso.php:1462
+msgid "License key"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1462
+msgid "This is the License key you received from us by mail."
+msgstr ""
+
+#: ../woocommerce-reviso.php:1464
+msgid "Other checkout"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1464
+msgid ""
+"What should be created at Reviso when the checkout is made via any payment "
+"gateway but not Reviso. <br><i style=\"margin-left:25px; color: #F00;"
+"\">Note: Reviso Orders and Draft invoices can be updated later, but Reviso "
+"Invoice are readonly.</i>"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1466
+msgid "Reviso checkout"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1466
+msgid ""
+"What should be created at Reviso when the checkout is made via Reviso. "
+"<br><i style=\"margin-left:25px; color: #F00;\">Note: Reviso Orders and "
+"Draft invoices can be updated later, but Reviso Invoice are readonly.</i>"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1468
+msgid "Activate old orders sync"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1468
+msgid "Also sync orders created before wooconomics installation."
+msgstr ""
+
+#: ../woocommerce-reviso.php:1470
+msgid "Activate product sync"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1470
+msgid ""
+"Sync product information from WooCommerce to Reviso. (Stock information is "
+"updated regardless of this setting)"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1472
+msgid "Run scheduled product stock sync"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1472
+msgid "Run scheduled product stock sync from Reviso to WooCommerce."
+msgstr ""
+
+#: ../woocommerce-reviso.php:1475
+msgid "Reviso product group to which new products are added."
+msgstr ""
+
+#: ../woocommerce-reviso.php:1477
+msgid "Product prefix"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1477
+msgid "Prefix added to the products stored to Reviso from woocommerce"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1479
+msgid "Customer group"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1479
+msgid ""
+"Reviso customer group to which new customers are added. <br><i style="
+"\"margin-left:25px; color: #F00;\">MUST be selected. Sync is not possible if "
+"not selected.</i>"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1481
+msgid "Shipping group"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1481
+msgid "Reviso product group to which shipping methods are added."
+msgstr ""
+
+#: ../woocommerce-reviso.php:1483
+msgid "Coupon group"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1483
+msgid "Reviso product group to which coupon discounts are added."
+msgstr ""
+
+#: ../woocommerce-reviso.php:1485
+msgid "Order reference prefix"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1485
+msgid ""
+"Prefix added to the order reference of an Order synced to Reviso from "
+"woocommerce"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1499
+msgid "Manual functions"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1512
+msgid "Welcome!"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1526 ../woocommerce-reviso.php:1746
+#: ../woocommerce-reviso.php:1874
+msgid "Support"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1537
+msgid ""
+"Specifies basic settings for the Reviso integration and you can control "
+"which parts you want to sync to Reviso"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1546
+msgid "Description Accounting settings."
+msgstr ""
+
+#: ../woocommerce-reviso.php:1745
+msgid "Our most frequently asked questions FAQ"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1758
+msgid "Save changes"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1760 ../woocommerce-reviso.php:1762
+msgid "Test connection"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1764
+msgid "NOTE! Save changes before testing the connection"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1778
+msgid "Manual sync direction"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1778
+msgid ""
+"Choose this option before using \"Manual sync customers\" and \"Manual sync "
+"products\" syncs, default will be WooCommerce to Reviso.<br>WooCommerce to "
+"Reviso: Products and Customers data from WooCommerce send to Reviso.<br>\n"
+"Reviso to WooCommerce: Products and Customers data from Reviso saved at "
+"WooCommerce."
+msgstr ""
+
+#: ../woocommerce-reviso.php:1783
+msgid "Manual sync products"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1783
+msgid ""
+"The synchronization can take a long time depending on how many products that "
+"will be exported. \\ nA message will appear on this page when the "
+"synchronization is complete. Do not leave this page, which will suspended "
+"the import!"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1785
+msgid ""
+"Send all products to your Reviso. If you have many products, it may take a "
+"while."
+msgstr ""
+
+#: ../woocommerce-reviso.php:1788
+msgid "Manual sync delivery methods"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1788 ../woocommerce-reviso.php:1793
+msgid ""
+"A message will appear on this page when the synchronization is complete. Do "
+"not leave this page, which will suspend the sync!"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1790
+msgid "Send all delivery method costs to your Reviso."
+msgstr ""
+
+#: ../woocommerce-reviso.php:1793
+msgid "Manual sync coupons"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1795
+msgid "Send all coupon codes to your Reviso."
+msgstr ""
+
+#: ../woocommerce-reviso.php:1798
+msgid ""
+"The synchronization can take a long time depending on how many customers to "
+"be imported. \\ nA message will appear on this page when the synchronization "
+"is complete. Do not leave this page, which will suspend the sync!"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1798
+msgid "Manual sync customers"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1800
+msgid "Sync customers created manually in woocommerce dashboard."
+msgstr ""
+
+#: ../woocommerce-reviso.php:1803
+msgid ""
+"The synchronization can take a long time depending on how many orders to be "
+"exported. \\ nA message will appear on this page when the synchronization is "
+"complete. Do not leave this page, which will suspended the import!"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1803
+msgid "Manual syncing orders/invoices"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1805
+msgid ""
+"Synchronizes all orders that failed to synchronize. (default sync is set to "
+"General Settings-> Create options)"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1827
+msgid "Installation Support"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1835 ../woocommerce-reviso.php:1882
+msgid "Company"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1840 ../woocommerce-reviso.php:1887
+msgid "Name"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1845 ../woocommerce-reviso.php:1892
+msgid "Phone"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1850 ../woocommerce-reviso.php:1897
+msgid "Email"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1855 ../woocommerce-reviso.php:1902
+msgid "Subject"
+msgstr ""
+
+#: ../woocommerce-reviso.php:1860 ../woocommerce-reviso.php:1908
+msgid "Send"
+msgstr ""
